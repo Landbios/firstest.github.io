@@ -1,0 +1,61 @@
+body, html {
+
+    background: url(background1.jpg) no-repeat center center fixed ;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+form{
+
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 30rem;
+    height: 30rem;
+    
+    ;
+
+}
+
+.space{
+
+    height: 50px;
+
+
+}
+
+label{
+    color: whitesmoke;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#welcome{
+    font-family: "Playfair Display", "serif";
+
+    color: #cc6b19;
+
+}
+
+#sendbut{
+
+
+    padding: 12px;
+    border-radius: 320px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color:#cc6b19 ;
+
+}
+
+.centers{
+
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
